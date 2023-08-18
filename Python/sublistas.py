@@ -1,4 +1,5 @@
 lista_cursos = ['Python', 'Java', 'Django', 'Ruby', 'Laravel', 'C#']
+#sublista = [startindex:endindex(noinclude)]
 sub_lista = lista_cursos[0:3]
 sub_lista2 = lista_cursos[2:]
 sub_lista3 = lista_cursos[:4]
