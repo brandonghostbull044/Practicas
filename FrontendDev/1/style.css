@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.plant-types {
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background-color: chartreuse;
+    padding: 20px;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.plant {
+    color: aliceblue;
+    align-self: center;
+    padding: 4px;
+    width: auto;
+    background-color:brown;
+    margin: 4px;
+    line-height: 25px;
+}
+
+.plant-types .plant:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.container {
+    display: flex;
+    left: calc(50% - 175px);
+    width: 350px;
+    height: 400px;
+    background-color: brown;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.item {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-1 {
+    position: absolute;
+    top: 0px;
+    background-color: aqua;
+}
+
+.item-2 {
+    background-color:azure;
+}
+
+.item-3 {
+    background-color: bisque;
+}
+
+.item-4 {
+    color: white;
+    background-color: black;
+}
+
+.item-5 {
+    background-color: blue;
+}
+
+.item-6 {
+    background-color: cadetblue;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color:darkturquoise;
+    top: 0px;
+}
+
+body {
+    position: relative;
+    height: 7000px;
+    width: 100%;
+}
+
+header, section, footer {
+    position: absolute;
+}
+
+.body-element-1 {
+    top: 30px;
+    left: calc(50% - 131px);
+}
+.body-element-2 {
+    top: 149px;
+    left: calc(50% - 200px);
+}
+.body-element-3 {
+    top: 600px;
+    left: calc(50% - 194px);
+}
+.body-element-4 {
+height: auto;
+top: 1051px;
+}
+
+.body-element-4 ul p {
+    width: 100%;
+    font-size: 40px;
+    position: sticky;
+    top: 0;
+    left: calc(50% - 275.4px);
+}
+
+.body-element-4 li {
+    font-size: 25px;
+}
+
+.cubits {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 200px;
+    left: calc(50% - 50px);
+}
+.cubit {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+.blue {
+    background-color: blue;
+    z-index: 2;
+    top: 15px;
+}
+.red {
+    background-color: red;
+    z-index: 1;
+    top: 30px;
+    left: 30px;
+}
+.purple {
+    background-color: purple;
+    z-index: 3;
+    top: 30px;
+    left: 15px;
+}
+.orange {
+    background-color: orange;
+    z-index: 4;
+    left: 30px;
+    bottom: 15px;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    bottom: 0px;
+    background-color: darkorange;
+}
+
+
