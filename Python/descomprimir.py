@@ -9,6 +9,7 @@ unooo, *_ = numeros
 #O podemos omitir algunos intermedios, poniendo después el número de variables que queremos en las que queremos obtener los últimos valores
 unoooo, *_, tress, cuatroo = numeros
 #Podemos omitir un número específico de intermedios 
+print(type(numeros))
 print(uno)
 print(dos)
 print(tres)
